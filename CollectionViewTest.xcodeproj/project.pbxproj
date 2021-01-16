@@ -16,7 +16,7 @@
 		346271E725B3015B00CE2788 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346271E525B3015B00CE2788 /* HeaderCollectionReusableView.xib */; };
 		346271EE25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271EC25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift */; };
 		346271EF25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346271ED25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib */; };
-		346271F225B31F6600CE2788 /* BackdropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271F125B31F6600CE2788 /* BackdropCollectionViewCell.swift */; };
+		346271F225B31F6600CE2788 /* ItemsCollectionViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271F125B31F6600CE2788 /* ItemsCollectionViewCells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		346271E525B3015B00CE2788 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 		346271EC25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		346271ED25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
-		346271F125B31F6600CE2788 /* BackdropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropCollectionViewCell.swift; sourceTree = "<group>"; };
+		346271F125B31F6600CE2788 /* ItemsCollectionViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewCells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				346271E525B3015B00CE2788 /* HeaderCollectionReusableView.xib */,
 				346271EC25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift */,
 				346271ED25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib */,
-				346271F125B31F6600CE2788 /* BackdropCollectionViewCell.swift */,
+				346271F125B31F6600CE2788 /* ItemsCollectionViewCells.swift */,
 			);
 			path = CollectionViewTest;
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 				346271D325B2FB7700CE2788 /* ViewController.swift in Sources */,
 				346271E625B3015B00CE2788 /* HeaderCollectionReusableView.swift in Sources */,
 				346271EE25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift in Sources */,
-				346271F225B31F6600CE2788 /* BackdropCollectionViewCell.swift in Sources */,
+				346271F225B31F6600CE2788 /* ItemsCollectionViewCells.swift in Sources */,
 				346271CF25B2FB7700CE2788 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

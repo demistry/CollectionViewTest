@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BackdropCollectionViewCell: UICollectionViewCell {
+class ItemsCollectionViewCells: UICollectionViewCell {
     
     @IBOutlet var imageViewHeightConstraint: NSLayoutConstraint!
 }

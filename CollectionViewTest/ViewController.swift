@@ -38,7 +38,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let totalWidth = collectionView.frame.width - collectionView.contentInset.left - collectionView.contentInset.right
         let halfWidth = totalWidth / 2
         let widthOfCell = halfWidth - 8
-        if let cell = collectionView.cellForItem(at: indexPath) as? BackdropCollectionViewCell {
+        if let cell = collectionView.cellForItem(at: indexPath) as? ItemsCollectionViewCells {
             cell.imageViewHeightConstraint.constant = widthOfCell
         }
         print("width of cell... \(widthOfCell)")
