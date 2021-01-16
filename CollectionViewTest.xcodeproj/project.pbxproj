@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		346271CF25B2FB7700CE2788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271CE25B2FB7700CE2788 /* AppDelegate.swift */; };
-		346271D125B2FB7700CE2788 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271D025B2FB7700CE2788 /* SceneDelegate.swift */; };
 		346271D325B2FB7700CE2788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271D225B2FB7700CE2788 /* ViewController.swift */; };
 		346271D625B2FB7700CE2788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346271D425B2FB7700CE2788 /* Main.storyboard */; };
 		346271D825B2FB7900CE2788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346271D725B2FB7900CE2788 /* Assets.xcassets */; };
 		346271DB25B2FB7900CE2788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346271D925B2FB7900CE2788 /* LaunchScreen.storyboard */; };
+		346271E625B3015B00CE2788 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271E425B3015B00CE2788 /* HeaderCollectionReusableView.swift */; };
+		346271E725B3015B00CE2788 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346271E525B3015B00CE2788 /* HeaderCollectionReusableView.xib */; };
+		346271EE25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271EC25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift */; };
+		346271EF25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346271ED25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib */; };
+		346271F225B31F6600CE2788 /* BackdropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346271F125B31F6600CE2788 /* BackdropCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		346271CB25B2FB7700CE2788 /* CollectionViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		346271CE25B2FB7700CE2788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		346271D025B2FB7700CE2788 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		346271D225B2FB7700CE2788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		346271D525B2FB7700CE2788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		346271D725B2FB7900CE2788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		346271DA25B2FB7900CE2788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		346271DC25B2FB7900CE2788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346271E425B3015B00CE2788 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		346271E525B3015B00CE2788 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		346271EC25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		346271ED25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		346271F125B31F6600CE2788 /* BackdropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				346271CE25B2FB7700CE2788 /* AppDelegate.swift */,
-				346271D025B2FB7700CE2788 /* SceneDelegate.swift */,
 				346271D225B2FB7700CE2788 /* ViewController.swift */,
 				346271D425B2FB7700CE2788 /* Main.storyboard */,
 				346271D725B2FB7900CE2788 /* Assets.xcassets */,
 				346271D925B2FB7900CE2788 /* LaunchScreen.storyboard */,
 				346271DC25B2FB7900CE2788 /* Info.plist */,
+				346271E425B3015B00CE2788 /* HeaderCollectionReusableView.swift */,
+				346271E525B3015B00CE2788 /* HeaderCollectionReusableView.xib */,
+				346271EC25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift */,
+				346271ED25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib */,
+				346271F125B31F6600CE2788 /* BackdropCollectionViewCell.swift */,
 			);
 			path = CollectionViewTest;
 			sourceTree = "<group>";
@@ -124,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346271E725B3015B00CE2788 /* HeaderCollectionReusableView.xib in Resources */,
 				346271DB25B2FB7900CE2788 /* LaunchScreen.storyboard in Resources */,
+				346271EF25B30A4800CE2788 /* SecondHeaderCollectionReusableView.xib in Resources */,
 				346271D825B2FB7900CE2788 /* Assets.xcassets in Resources */,
 				346271D625B2FB7700CE2788 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				346271D325B2FB7700CE2788 /* ViewController.swift in Sources */,
+				346271E625B3015B00CE2788 /* HeaderCollectionReusableView.swift in Sources */,
+				346271EE25B30A4800CE2788 /* SecondHeaderCollectionReusableView.swift in Sources */,
+				346271F225B31F6600CE2788 /* BackdropCollectionViewCell.swift in Sources */,
 				346271CF25B2FB7700CE2788 /* AppDelegate.swift in Sources */,
-				346271D125B2FB7700CE2788 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

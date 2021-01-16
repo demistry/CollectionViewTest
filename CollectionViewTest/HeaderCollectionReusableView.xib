@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="U6b-Vx-4bR" customClass="HeaderCollectionReusableView" customModule="CollectionViewTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fga-eD-WgS">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="awn-nI-ndr">
+                            <rect key="frame" x="120" y="17" width="80" height="77.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="7Jw-Gr-F7O"/>
+                                <constraint firstAttribute="width" constant="80" id="HtE-pt-s0E"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#Cake" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xac-0D-dXD">
+                            <rect key="frame" x="134" y="104" width="52" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 Backdrops" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xw3-ar-O6U">
+                            <rect key="frame" x="107.5" y="133" width="105.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOI-4l-FOH">
+                            <rect key="frame" x="16" y="184" width="288" height="50"/>
+                            <color key="backgroundColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="exI-Pw-0Z8"/>
+                            </constraints>
+                            <state key="normal" title="Follow">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="awn-nI-ndr" firstAttribute="top" secondItem="Fga-eD-WgS" secondAttribute="top" constant="16" id="2az-Tt-Toi"/>
+                        <constraint firstItem="Xac-0D-dXD" firstAttribute="centerX" secondItem="awn-nI-ndr" secondAttribute="centerX" id="Akd-3H-L2f"/>
+                        <constraint firstItem="awn-nI-ndr" firstAttribute="centerX" secondItem="Fga-eD-WgS" secondAttribute="centerX" id="Jzt-71-bmK"/>
+                        <constraint firstItem="Xac-0D-dXD" firstAttribute="top" secondItem="awn-nI-ndr" secondAttribute="bottom" constant="8" id="gaN-F7-CqW"/>
+                        <constraint firstItem="xw3-ar-O6U" firstAttribute="top" secondItem="Xac-0D-dXD" secondAttribute="bottom" constant="8" id="r3O-qc-fDI"/>
+                        <constraint firstAttribute="trailing" secondItem="EOI-4l-FOH" secondAttribute="trailing" constant="16" id="rB1-qq-F5F"/>
+                        <constraint firstItem="EOI-4l-FOH" firstAttribute="leading" secondItem="Fga-eD-WgS" secondAttribute="leading" constant="16" id="tSu-Fr-YkH"/>
+                        <constraint firstAttribute="bottom" secondItem="EOI-4l-FOH" secondAttribute="bottom" constant="16" id="tp2-rD-UpP"/>
+                        <constraint firstItem="xw3-ar-O6U" firstAttribute="centerX" secondItem="Xac-0D-dXD" secondAttribute="centerX" id="ySN-bg-j7B"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <color key="backgroundColor" red="0.38431372549999998" green="0.41176470590000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="Fga-eD-WgS" secondAttribute="trailing" id="2mA-t1-h8O"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="Fga-eD-WgS" secondAttribute="bottom" id="N3j-Lp-XA1"/>
+                <constraint firstItem="Fga-eD-WgS" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="hKH-FC-saT"/>
+                <constraint firstAttribute="top" secondItem="Fga-eD-WgS" secondAttribute="top" id="nL1-XK-3dd"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="105.13392857142857"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="gamecontroller.fill" catalog="system" width="128" height="80"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
